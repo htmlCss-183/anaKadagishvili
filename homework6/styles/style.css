@@ -1,0 +1,114 @@
+header {
+    width: 960px;
+height: 90px;
+flex-shrink: 0;
+background-color: rgb(147, 167, 169);
+}
+
+h1 {
+    color: rgb(87, 89, 93);
+text-align: center;
+font-family: Roboto;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 20px;
+}
+.immagediv {
+    width: 800px;
+    height: 180px;
+    justify-content: space-around;
+    display: flex;
+    padding-left: 60px;
+    margin-top: 150px;
+    
+}
+
+.immages {
+    width: 200px;
+    height: 200px;
+   
+}
+.immages:hover {
+   
+    border: 10px solid orangered;
+}
+
+
+p {
+    width: 400px;
+    height: 500px;
+    align-items: center;
+    padding-left: 280px;
+    margin-top: 150px;
+    color:rgb(48, 69, 48);
+}
+input {
+    background-color: aliceblue;
+    color: blue;
+    border: none;
+}
+
+
+
+
+table {
+    width: 500px;
+    height: 300px;
+    border: rebeccapurple solid 1px;
+    color:  rgb(28, 88, 240);
+    border-radius: 10px;
+    margin-left: 250px;
+}
+
+  table tr th {
+ background-color: rgb(28, 88, 240);
+ color:aliceblue;
+ font-size: 25px;
+ border-radius: 10px;
+ 
+ }
+
+table tr td {
+    text-align: center;
+   font-size: 20px;
+    background-color: white;
+    border-radius: 10px;
+ }
+
+ table tr th:hover {
+    background-color: rgb(70, 158, 217);
+ }
+ table tr td:hover {
+    background-color:rgb(70, 158, 217) ;
+ }
+ footer{
+    width: 960px;
+    height: 90px;
+    flex-shrink: 0;
+    background-color: rgb(147, 167, 169);
+ }
+ .texthere{
+    width: 150px;
+    height: 20px;
+    border: 2px solid black;
+    margin-left: 250px;
+    border-radius: 10px;
+    margin-top: 40px;
+
+ }
+ .button {
+    width: 50px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgb(14, 91, 65);
+    margin-left: 10px;
+    color: white;
+ }
+ .texthere:hover{
+    background-color: aquamarine;
+ }
+ .button:active {
+    background-color: navy;
+ }

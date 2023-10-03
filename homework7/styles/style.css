@@ -1,0 +1,166 @@
+.headerdiv {
+    width: 100%;
+    height: 250px;
+   display: flex;
+    background-color: rgb(28, 32, 33);
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+}
+@keyframes example {
+    from {background-color: rgb(62, 62, 62);}
+    to {
+        background-color: rgb(36, 36, 36);
+    }
+}
+
+.atags {
+    display: flex;
+    justify-content: space-evenly;
+   
+    width: 500px;
+    margin-left: 800px;
+    color: wheat;
+}
+a {
+    color: wheat;
+    margin-top: 180px;
+    text-align: center;
+    border-radius: 8%;
+   
+}
+a:hover {
+    background-color: black;
+    width: 70px;
+    height: 30px;
+    
+}
+h1 {
+    color: wheat;
+    margin-left: 100px;
+    margin-top: 80px;
+    font-size: 80px;
+    text-shadow: 10px chartreuse;
+
+}
+h4{
+    width: 100px;
+    height: 50px;
+    background: rgba(77, 78, 82, 0.464);
+    transition: width 1s;
+    transition-delay: 1s;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(226, 224, 187);
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+h4:hover {
+    width: 300px;
+}
+#div1 {
+    transition-timing-function: linear;}
+ #div2 {
+        transition-timing-function: ease;}
+ #div3 {
+        transition-timing-function: ease-in;}
+ #div4 {
+        transition-timing-function: ease-out;}
+
+
+body{
+    background-size: 900px;
+  
+}
+
+
+
+.ptagtables{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+table {
+    border: rebeccapurple solid 1px;
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+  
+}
+
+ table tr th {
+ border: rebeccapurple solid 1px;
+border-radius: 10px;
+background-color: black;
+color: antiquewhite;
+
+ }
+
+ table tr td {
+    border: solid rebeccapurple 1px;
+    background-color: rgb(30, 30, 29);
+    text-align: center;
+    color: antiquewhite;
+
+    border-radius: 10px;
+ }
+th:hover {
+    background-color: rgb(87, 100, 100);
+ }
+
+ td:hover{
+    background-color:rgb(117, 130, 130) ;
+ }
+ /* #johnpaidchacker {
+    background-color: aquamarine;
+ }
+ #janepaidchacker {
+    background-color: rgb(248, 60, 60);
+ }
+   */
+
+footer {
+    width: 100%;
+    height: 300px;
+   display: flex;
+    background-color: rgb(28, 32, 33);
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 300px;
+
+}
+h3 {
+    display: flex;
+    justify-content: space-between;
+    color: wheat;
+    /* border: 1px  solid wheat; */
+    padding-left: 330px;
+    padding-top: 50px;
+}
+h5 {
+    color: wheat;
+    padding-left: 370px;
+    
+}
+input {
+    flex-direction: column;
+margin-left: 280px;
+width: 250px;
+height: 30px;
+justify-content: space-between;
+margin-top: 50px;
+}
+input:hover {
+    background-color: rgb(53, 52, 52);
+}
+h6 {
+    margin-top: 110px;
+    margin-left: 340px;
+    color: wheat;
+}

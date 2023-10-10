@@ -1,0 +1,271 @@
+nav {
+    width: 1800px;
+    height: 96px;
+    border-bottom: 1px solid #101822;
+    background:rgba(16, 24, 34, 1);
+    backdrop-filter: blur(12.5px);
+    display: inline-flex;
+    padding: 31px 96px 14px 98px;
+    justify-content: start;
+    align-items: center;
+}
+
+#logoimg {
+    width: 162.462px;
+    height: 44px;
+    flex-shrink: 0;
+    
+}
+#sunlogo {
+    margin-left: 20px;
+}
+a {
+    display: inline-flex;
+padding: 7px 9px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 5px;
+color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+font-variant: small-caps;
+margin-left: 34px;
+}
+.atags {
+    margin-left: 900px;
+}
+#headerimg1 {
+    font-family: Cinzel;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.64px;
+    background: var(--Gold-Linear, linear-gradient(295deg, #FFE5A1 4.89%, #BF841A 50.44%, #FFCD74 95.06%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+    margin-left: 111px;
+    margin-top: 328px;
+    margin-bottom: 37px;
+}
+header {
+    background: rgba(10, 13, 17, 1);
+    width:2000px;
+    height: 1000px;
+    flex-shrink: 0;
+
+}
+input {
+   
+    font-size: 30px;
+    display: flex;
+    width: 170px;
+    padding: 0px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    display: flex;
+    width: 170px;
+    padding: 0px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    border: 1px solid #FFDC8F;
+    background: var(--Gold-Linear, linear-gradient(295deg, #FFE5A1 4.89%, #BF841A 50.44%, #FFCD74 95.06%));
+    width: 180px;
+    height: 54px;
+}
+.inputclass {
+    margin-left: 55px;
+    display: flex;
+}
+#inputworks {
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px; /* 277.778% */
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+    background: var(--Gold-Linear, linear-gradient(295deg, #FFE5A1 4.89%, #BF841A 50.44%, #FFCD74 95.06%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 180px;
+    height: 54px;
+}
+
+
+#headerimg2 {
+    width: 889.144px;
+    height: 727.323px;
+    flex-shrink: 0;
+    margin-left: 200px
+
+}
+main {
+    width: 2000px;
+    height: 600px;
+  flex-direction: column;
+}
+.margerdiv {
+    display: flex;
+   
+}
+
+p{
+    width: 552px;
+    color: #EFF3FB;
+text-align: justify;
+font-family: Montserrat;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 50px; /* 227.273% */
+text-transform: capitalize;
+margin-left: 111px;
+}
+.maindiv {
+    width: 100%;
+    height: 1800px;
+    background: #050607;
+   
+}
+#contribution {
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 178.571% */
+    letter-spacing: 0.84px;
+    text-transform: uppercase;
+    background: var(--Gold-Linear, linear-gradient(295deg, #FFE5A1 4.89%, #BF841A 50.44%, #FFCD74 95.06%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 110px;    
+}
+.contributionviewmore {
+    display: flex;
+}
+.maindivpics {
+   
+    display: flex;
+    padding: 23px 327px 23px 0px;
+    align-items: center;
+    gap: 79px;
+   
+    }
+
+    .maintext {
+        color: #a6b1bc;
+        width: 50px;
+        height: 40px;
+        border: 3px solid wheat;
+    }
+    .maindiv2 {
+        width: 1496px;
+        height: 434px;
+        flex-shrink: 0;
+        background: #07090C;
+        display: flex;
+       
+    }
+    .maindiv3 {
+        background: #07090C;
+        display: flex;
+        width: 706px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        width: 706px;
+        height:96px;
+    }
+    .maintext2 {
+       margin-top: 250px;
+        display: flex;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px; /* 119.048% */
+        letter-spacing: 1.47px;
+        text-transform: uppercase;
+        background: var(--Gold-Linear, linear-gradient(295deg, #FFE5A1 4.89%, #BF841A 50.44%, #FFCD74 95.06%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .maintext3 {
+       
+        display: flex;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px; /* 119.048% */
+        letter-spacing: 1.47px;
+        text-transform: uppercase;
+        background: var(--Gold-Linear, linear-gradient(295deg, #FFE5A1 4.89%, #BF841A 50.44%, #FFCD74 95.06%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    
+    }
+    h2 {
+        font-size: 32px;
+        color: #a6b1bc;
+    }
+    .maindiv4 {
+        display: flex;
+        width: 1496px;
+        height: 427.71px;
+        flex-shrink: 0;
+        
+    }
+    .maindiv5 {
+        display: flex;
+        width: 706px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    } 
+    .lastdiv {
+        width: 565px;
+        height: 181px;
+        flex-shrink: 0;
+      
+        justify-content: center;
+        margin-left:500px;
+        margin-top: 150px;
+    }
+    .lasth1 {
+        color: #BF841A;
+       margin-left: 150px;
+        align-items: center;
+    }
+    h3 {
+        color: #a6b1bc;
+        margin-left: 60px;
+        align-items: center;
+    }
+    .lastimgs {
+        display: inline-flex;
+    align-items: flex-start;
+    gap: 32px;
+    margin-left: 60px;
+    margin-top: 50px
+    }

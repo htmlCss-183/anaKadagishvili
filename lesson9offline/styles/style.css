@@ -63,11 +63,12 @@
 
 /* aqedan iwyeba figmas dizainis rotaciis nawili magram kodi ar gadmomitania me */
 
-@media screen (min-width:1px) and (max-width:768px) {
+/* @media screen (min-width:1px) and (max-width:768px) {
     .NavMenu {
         display: none;
     }
+
     .headerMerger {
         display: flex;
     }
-}
+} */

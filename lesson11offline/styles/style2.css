@@ -1,0 +1,28 @@
+p::first-line {
+    color: lightcoral;
+    font-variant: small-caps;
+}
+p::first-letter {
+    font-size: xx-large;
+    color: brown;
+}
+p::before {
+    content: "some other text added here";
+    content: "";
+    background-image: url("https://www.w3schools.com/css/img_5terre.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+p::after {
+    content: url("https://www.w3schools.com/css/img_5terre.jpg");
+}
+::marker {
+    color: gold;
+}
+::selection {
+    color: yellow;
+    background: rebeccapurple;
+}

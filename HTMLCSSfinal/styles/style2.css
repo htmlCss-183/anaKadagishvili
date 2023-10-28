@@ -15,26 +15,44 @@ h1{
     font-size: 25px;
     text-align: center;
     color: rgba(6, 6, 6, 0.56);
-    margin-left: 570px;
+    margin-left: 40%;
    
 }
 #basketid {
     width: 25px;
     height: 25px;
-    margin-left: 100px;
+    margin-left: 40%;
 }
 #crown-id {
     width: 100px;
     height: 80px;
     margin-top: -80px;
 }
+
+
+.d-flex {
+    margin-left: 10%;
+    width: 100px;
+    height: 25px;
+    display: flex;
+}
+
+
+.btn {
+   
+    color: lightcoral;
+}
+.form-control {
+    margin-left: 200px;
+}
+
 .navmenu {
    font-size: large;
     justify-content: space-around ;
     width: 500px;
     height: 50px;
    
-    margin-left: 990px;
+    margin-left: 70%;
     margin-top: -70px;
     display: flex;
 }
@@ -56,6 +74,20 @@ h1{
     font-size: 18px;
 }
 
+ 
+#select {
+    width: 150px;
+    height: 30px;
+   background-color:rgb(39, 36, 36);
+   border-radius: 5%;
+   color:rgba(255, 201, 201, 0.851);
+  }
+
+#select:hover {
+    background-color: rgb(72, 52, 52);
+    border-radius: 10px;
+   
+}
 
 
 .item1 {
@@ -65,26 +97,27 @@ h1{
     color: var(--gridItemColor);
 }
 .item2 {
-    height: 900px;
+    width: 100%;
+    height: 1200px;
     grid-area: menu;
     color: var(--gridItemColor);
 }
 
 .item3 {
-    height: 900px;
+    /* height: 1200px; */
     grid-area: main;
     color: var(--gridItemColor);
 }
 
 .item4 {
-    height: 900px;
+    /* height: 1200px; */
     grid-area: right;
     color: var(--gridItemColor);
 }
 
 .item5 {
-    width: 1500px;
-    height: 300px;
+    /* width: 1500px;
+    height: 300px; */
     grid-area: footer;
     color: var(--gridItemColor);
 }
@@ -117,8 +150,4 @@ h1{
  
   
     
-}
-
-.form-control {
-    margin-left: 200px;
 }

@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Manrope&display=swap');
+
+:root {
+    --globalFontWidth: 700;
+}
+ 
+ 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 24px;
+}
+
+#grid-item {
+    width: 400px;
+    height: 408px;
+} 
+
+
+
+ #inputpassword {
+    width: 90px;
+    height: 20px;
+  
+ }
+ .password {
+    display: flex;
+ }
+
+ 
+ .logindiv {
+   color: white;
+    margin-top: -150px;
+    margin-left: 1200px;
+    width: 250px;
+    height: 90px;
+    border: 2px solid white;
+ }
+ 
+ 
+ /* header{
+    width: 100%;
+    height: 300px;
+   
+    background: linear-gradient(180deg, #e1ac0c 0%, white 100%);
+   
+} */
+
+ .atagsclass{
+    display: flex;
+    margin-left: 900px;
+}
+
+
+.atags {
+    border: 5px solid wheat;
+    border-radius: 7%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80px;
+    height: 50px; 
+    background-color: rgb(244, 210, 17);
+    color: aliceblue;
+    margin-left: 12px;
+}
+.atags:hover {
+    background-color: rgb(241, 171, 131);
+}
+#pngid {
+    width: 350px;
+    height: 150px;
+    margin-top: 70px;
+    /* margin-left: 60px; */
+}
+
+
+
+.example {
+    margin-top: 200px;
+    width: 100%;
+    height: 200px;
+    display: grid;
+    transition: all .2s;
+    user-select: none;
+    background: linear-gradient(to bottom, white, rgb( #e1ac0c 0%,));
+}
+
+
+
+
+.example {
+    display: -ms-grid;
+    display: grid;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: -webkit-gradient(linear, left top, left bottom, from (white), to ( #e1ac0c 0%,));
+    background: -o-linear-gradient(top, white,rgb( #e1ac0c 0%,));
+    background: linear-gradient(to bottom, white,rgb( #e1ac0c 0%,));
+}
+.maindiv1 {
+    margin-top: 80px;
+    margin-left: -600px;
+}
+
+.maindivimgs {
+    width: 400px;
+    height: 350px;
+    justify-content: space-around;
+    align-items: center;
+   margin-left: 9000px;
+    margin-top: 50px;
+    flex-direction: column;
+    font-size: large;
+
+}
+
+
+
+
+
+footer {
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(180deg, #e1ac0c 0%, white 100%);
+    
+}
+.footer {
+    display: flex;
+}
+.footer1div {
+    margin-left: 50px;
+      height: 300px;
+      color: white;
+  }
+
+.footer2div {
+    width: 100px;
+    height: 150px;
+    color:white;
+   margin-left: 400px;
+   margin-top: 40px;
+    
+}
+.footer3div {
+    width: 100px;
+    height: 150px;
+    color:white;
+   margin-left: 300px;
+   margin-top: 40px;
+}
+.footerimgs {
+    width: 45px;
+    height: 45px;
+    margin-top: 20px;
+   padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root {
+    --gridItemColor: rgb(9, 137, 94);
+   
+}
+
+.item1 {
+    grid-area: header;
+    color: var(--gridItemColor);
+   height: 300px;
+   background: linear-gradient(180deg, #e1ac0c 0%, white 100%);
+}
+.item2 {
+    grid-area: menu;
+    color: var(--gridItemColor);
+    height: 900px;
+}
+
+.item3 {
+    grid-area: main;
+    color: var(--gridItemColor);
+    height: 2500px;
+}
+
+.item4 {
+    grid-area: right;
+    color: var(--gridItemColor);
+    height: 900px;
+}
+
+.item5 {
+    grid-area: footer;
+    color: var(--gridItemColor);
+   
+    height: 300px;
+}
+
+.gridTable {
+    display: grid;
+    grid-template-areas:
+    "header header header header header header"
+    "menu main main main right right"
+    "menu footer footer footer footer footer";
+    gap: 10px;
+    background-color: rgb(240, 242, 186);
+    padding: 10px;
+}
+
+.gridTable > div { 
+   background-color: beige;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 25px;
+}

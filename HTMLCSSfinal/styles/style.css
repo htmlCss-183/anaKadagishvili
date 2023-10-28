@@ -1,0 +1,292 @@
+:root {
+    --gridItemColor: rgb(248, 243, 183);
+}
+
+.headerdiv {
+    display: flex;
+   
+   
+}
+a {
+    color:rgba(6, 6, 6, 0.56);
+}
+h1{
+   margin-top: -8px;
+    font-size: 25px;
+    text-align: center;
+    color: rgba(6, 6, 6, 0.56);
+    margin-left: 40%;
+   
+}
+#basketid {
+    width: 25px;
+    height: 25px;
+    margin-left: 40%;
+}
+#crown-id {
+    width: 100px;
+    height: 80px;
+    margin-top: -80px;
+}
+
+
+.d-flex {
+    margin-left: 10%;
+    width: 100px;
+    height: 25px;
+    display: flex;
+}
+
+
+.btn {
+   
+    color: lightcoral;
+}
+.form-control {
+    margin-left: 200px;
+}
+
+.navmenu {
+   font-size: large;
+    justify-content: space-around ;
+    width: 500px;
+    height: 50px;
+   
+    margin-left: 70%;
+    margin-top: -70px;
+    display: flex;
+}
+#navbar-atags:hover {
+    
+    background-color: rgba(245, 185, 185, 0.438) ;
+}
+#navbar-atags {
+    color:  rgba(255, 201, 201, 0.851) ;
+}
+.navbar {
+ 
+    width: 100%;
+    margin-top: 20px;
+    height: 30px;
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+ 
+#select {
+    width: 150px;
+    height: 30px;
+   background-color:rgb(39, 36, 36);
+   border-radius: 5%;
+   color:rgba(255, 201, 201, 0.851);
+  }
+
+#select:hover {
+    background-color: lightcoral;
+}
+
+
+.item1 {
+    background-color: rgba(252, 150, 150, 0.47);
+    height: 20px;
+    grid-area: header;
+    color: var(--gridItemColor);
+}
+.item2 {
+    width: 100%;
+    height: 1200px;
+    grid-area: menu;
+    color: var(--gridItemColor);
+}
+
+.item3 {
+    height: 1200px;
+    grid-area: main;
+    color: var(--gridItemColor);
+}
+
+.item4 {
+    height: 1200px;
+    grid-area: right;
+    color: var(--gridItemColor);
+}
+
+.item5 {
+    width: 1500px;
+    height: 300px;
+    grid-area: footer;
+    color: var(--gridItemColor);
+}
+
+.gridTable {
+    width: 100%;
+    height: 1800px;
+    display: grid;
+    grid-template-areas:
+    "header header header header header header"
+    "menu main main main main right"
+    "footer footer footer footer footer footer";
+    gap: 10px;
+    /* background-color: rgb(43, 182, 232); */
+    padding: 10px;
+}
+
+.gridTable > div { 
+    
+   
+    text-align: center;
+    padding: 25px 0;
+    font-size: 25px;
+}
+
+
+#pointpng {
+    width: 100px;
+    height: 120px;
+ 
+  
+    
+}
+
+
+
+#responcive1 {
+    width: 300px;
+}
+#responcive2 {
+    width: 300px;
+}
+#responcive3 {
+    width: 300px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+       #pic1 {
+        display: block;
+       }
+       #pic2 {
+        display: none;
+       }
+       #pic3 {
+        display: none;
+       }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+        #pic1 {
+            display: none;
+        }
+       #pic2 {
+        display: block;
+       }
+       #pic3 {
+        display: none;
+       }
+ 
+}
+
+@media (min-width: 1024px) {
+    #pic1 {
+        display: none;
+    }
+   #pic2 {
+    display: none;
+   }
+   #pic3 {
+    display: block;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+.animation {
+    width: 120px;
+    height: 100px;
+    background-color: skyblue;
+    animation-name: example3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: reverse;
+
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 50px;
+    height: 100px;
+    background:rgba(252, 150, 150, 0.47);
+    transition: width 1s;
+    transition-delay: 1s;
+}
+
+
+/* @keyframes example {
+    from {background-color: green;}
+    to {background-color: red;}
+} */
+
+
+
+@keyframes example3 {
+    0% {background-color: rgb(31, 161, 212); left: 20px; top: 0px;}
+    25% {background-color: rgba(252, 150, 150, 0.47); left: 0px; top:0px;}
+    50% {background-color: rgb(245, 101, 120); left: 20px; top: 0px;}
+      75% {background-color: rgb(255, 170, 0); left: 0px; top: 0px;} 
+    100% {background-color: rgb(239, 108, 64); left: 0px; top: 0px;} 
+}
+
+
+
+
+.animation:hover {
+    width: 200px;
+   
+}
+ 
+
+
+
+
+
+p {
+    color: black;
+}
+
+
+
+
+ 
+
+
+
+
+
+
+#maindivimgs {
+    width: 900px;
+    height: 1000px;
+    display: flex;
+   
+   
+    margin-left: 170px;
+    margin-top: 200px;
+}
+
+
+  .maindivimgs {
+    width: 300px;
+    height: 500px;
+    flex-direction: column;
+    border: 1px solid brown;
+    padding-left: 50px;
+    margin-left: 25px;
+  }

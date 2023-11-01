@@ -1,6 +1,28 @@
+* {
+    font-family: Arial;
+}
+
+@import url();
+@import url();
+
+@font-face{
+    font-family: Arial;
+    src: url(../fonts/bpg_nino_mtavruli_normal.ttf);
+}
+
+
+h2 {
+    font-size: large;
+}
+
+
+
+
+
+/* 
 :root {
     --gridItemColor: rgb(248, 243, 183);
-}
+} */
 
 .headerdiv {
     display: flex;
@@ -52,7 +74,7 @@ h1{
     width: 500px;
     height: 50px;
    
-    margin-left: 70%;
+    margin-left: 60%;
     margin-top: -70px;
     display: flex;
 }
@@ -104,20 +126,21 @@ h1{
 }
 
 .item3 {
-    /* height: 1200px; */
+    width: 300px;
+    height: 1200px;
     grid-area: main;
     color: var(--gridItemColor);
 }
 
 .item4 {
-    /* height: 1200px; */
+    height: 1200px;
     grid-area: right;
     color: var(--gridItemColor);
 }
 
 .item5 {
-    /* width: 1500px;
-    height: 300px; */
+  
+    height: 1300px;
     grid-area: footer;
     color: var(--gridItemColor);
 }
@@ -150,4 +173,8 @@ h1{
  
   
     
+}
+
+h3 {
+    margin-top: 300px;
 }

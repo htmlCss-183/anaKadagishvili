@@ -120,27 +120,27 @@ h1{
 }
 .item2 {
     width: 100%;
-    /* height: 1200px; */
+    height: 1200px;
     grid-area: menu;
     color: var(--gridItemColor);
 }
 
 .item3 {
     width: 300px;
-    /* height: 1200px; */
+    height: 1200px;
     grid-area: main;
     color: var(--gridItemColor);
 }
 
 .item4 {
-    /* height: 1200px; */
+    height: 1200px;
     grid-area: right;
     color: var(--gridItemColor);
 }
 
 .item5 {
-   
-   
+  
+    height: 1300px;
     grid-area: footer;
     color: var(--gridItemColor);
 }
@@ -175,60 +175,23 @@ h1{
     
 }
 
-h3 {
-    margin-top: 300px;
-}
-
-.inputclass {
-    margin-top: 200px;
-   
-}
-#h1id{
-  
-    color: lightcoral;
-    margin-right: 650px;
-}
-#id1input {
-    margin-top:30px ;
-    width: 70px;
-    height: 20px;
-   
-   
-}
-#inputid{
-    border: 1px solid lightcoral;
+.itemsdiv {
     width: 500px;
-    height: 200px;
-    text-align: start;
-} 
-
-#inputid1 {
-    margin-top: 20px;
-    width: 70px;
-    height: 40px;
-    color: aliceblue;
-    border: 1px solid aliceblue;
-    background-color: lightcoral;
-   border-radius: 25%;
- 
+    height: 600px;
+    border: 1px solid lightcoral;
+    margin-left: 600px;
+    margin-top: 150px;
 }
-#inputid1:hover{
-    background-color: lightpink;
-}
-
-.contuctuspagesimg {
+h1 {
+    
     margin-top: 50px;
+    margin-right: 150px;
 }
-
-body{
-    background-image: url(../pictures/2ballerinas.webp);
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-  
-    background-size:100%;
-  }
-
-
+p{
+    text-align: start;
+    margin-top: 50px;
+    margin-left: 50px;
+}
 
 
 
@@ -242,7 +205,7 @@ body{
     height: 300px;
     background-color: rgba(252, 150, 150, 0.47);
     display: flex;
-   margin-top: 600px;
+   
   }
 
   .footer-atag1 {
@@ -252,14 +215,14 @@ body{
     flex-direction: column;
     margin-left: 200px;
     text-align: start;
-    margin-top: 130px;
+    margin-top: 70px;
    font-size: large;
   
   }
 
   .footer-atag2 {
     font-size: large;
-    margin-top: 130px;
+    margin-top: 70px;
     text-align: start;
     width: 150px;
     height: 200px;
@@ -278,3 +241,14 @@ body{
     margin-left: 250px;
     justify-content: space-around;
   }
+
+
+
+
+
+
+
+
+
+
+

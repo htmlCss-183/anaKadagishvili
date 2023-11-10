@@ -9,3 +9,280 @@
     font-family: Arial;
     src: url(../fonts/bpg_nino_mtavruli_normal.ttf);
 }
+
+
+* {
+    font-family: Arial;
+}
+
+@import url();
+@import url();
+
+@font-face{
+    font-family: Arial;
+    src: url(../fonts/bpg_nino_mtavruli_normal.ttf);
+}
+
+
+h2 {
+    font-size: large;
+}
+
+
+
+
+
+/* 
+:root {
+    --gridItemColor: rgb(248, 243, 183);
+} */
+
+.headerdiv {
+    display: flex;
+   
+   
+}
+a {
+    color:rgba(6, 6, 6, 0.56);
+}
+h1{
+   margin-top: -8px;
+    font-size: 25px;
+    text-align: center;
+    color: rgba(6, 6, 6, 0.56);
+    margin-left: 40%;
+   
+}
+#basketid {
+    width: 25px;
+    height: 25px;
+    margin-left: 40%;
+}
+#crown-id {
+    width: 100px;
+    height: 80px;
+    margin-top: -80px;
+}
+
+
+.d-flex {
+    margin-left: 10%;
+    width: 100px;
+    height: 25px;
+    display: flex;
+}
+
+
+.btn {
+   
+    color: lightcoral;
+}
+.form-control {
+    margin-left: 200px;
+}
+
+.navmenu {
+   font-size: large;
+    justify-content: space-around ;
+    width: 500px;
+    height: 50px;
+   
+    margin-left: 60%;
+    margin-top: -70px;
+    display: flex;
+}
+#navbar-atags:hover {
+    
+    background-color: rgba(245, 185, 185, 0.438) ;
+}
+#navbar-atags {
+    color:  rgba(255, 201, 201, 0.851) ;
+}
+.navbar {
+ 
+    width: 100%;
+    margin-top: 20px;
+    height: 30px;
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+ 
+#select {
+    width: 150px;
+    height: 30px;
+   background-color:rgb(39, 36, 36);
+   border-radius: 5%;
+   color:rgba(255, 201, 201, 0.851);
+  }
+
+#select:hover {
+    background-color: rgb(72, 52, 52);
+    border-radius: 10px;
+   
+}
+
+
+.item1 {
+    background-color: rgba(252, 150, 150, 0.47);
+    height: 20px;
+    grid-area: header;
+    color: var(--gridItemColor);
+}
+.item2 {
+    width: 100%;
+   
+    grid-area: menu;
+    color: var(--gridItemColor);
+}
+
+.item3 {
+    width: 300px;
+   
+    grid-area: main;
+    color: var(--gridItemColor);
+}
+
+.item4 {
+  
+    grid-area: right;
+    color: var(--gridItemColor);
+}
+
+.item5 {
+  
+margin-top: 800px;
+    grid-area: footer;
+    color: var(--gridItemColor);
+}
+
+.gridTable {
+    width: 100%;
+  
+    display: grid;
+    grid-template-areas:
+    "header header header header header header"
+    "menu main main main main right"
+    "footer footer footer footer footer footer";
+    gap: 10px;
+    /* background-color: rgb(43, 182, 232); */
+    padding: 10px;
+}
+
+.gridTable > div { 
+    
+   
+    text-align: center;
+    padding: 25px 0;
+    font-size: 25px;
+}
+
+
+#pointpng {
+    width: 100px;
+    height: 120px;
+ 
+  
+    
+}
+
+.itemsdiv {
+    width: 500px;
+    height: 600px;
+    border: 1px solid lightcoral;
+    margin-left: 600px;
+    margin-top: 150px;
+}
+#h1-2 {
+    margin-top: -8px;
+    font-size: 25px;
+    text-align: center;
+    color: rgba(6, 6, 6, 0.56);
+    margin-left: 40px;
+
+
+     margin-top: 50px;
+    /* margin-right: 150px;  */
+}
+p{
+    color: rgba(6, 6, 6, 0.56);
+    text-align: start;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#chackoutbutton:hover {
+    background-color: lightpink;
+}
+#chackoutbutton {
+    color: aliceblue;
+    background-color: lightcoral;
+    border: 1px solid aliceblue;
+    border-radius: 20px;
+    font-size: xx-large;
+    padding-left: 10px;
+    width: 150px;
+    height: 50px;
+    margin-top: 70px;
+}
+
+
+
+
+
+
+
+
+.footerdiv {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(252, 150, 150, 0.47);
+    display: flex;
+  
+  }
+
+  .footer-atag1 {
+    width: 150px;
+    height: 200px;
+  
+    flex-direction: column;
+    margin-left: 200px;
+    text-align: start;
+    margin-top: 120px;
+   font-size: large;
+  
+  }
+
+  .footer-atag2 {
+    font-size: large;
+    margin-top: 120px;
+    text-align: start;
+    width: 150px;
+    height: 200px;
+  
+    flex-direction: column;
+    margin-left: 400px;
+  }
+  .footer-atags3 {
+    width: 50px;
+    height: 50px;
+    justify-content: space-around;
+    margin-left: 30px;
+  }
+  .footer-last-atags {
+    margin-top: 200px;
+    margin-left: 250px;
+    justify-content: space-around;
+  }
+
+
+
+
+
+
+
+
+
+
+

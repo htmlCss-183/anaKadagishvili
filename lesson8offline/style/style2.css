@@ -1,0 +1,36 @@
+div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: skyblue;
+    animation-name: example3;
+    animation-duration: 4s;
+    animation-iteration-count: 100,infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+@keyframes example {
+    from {background-color: green;}
+    to {
+        background-color: palevioletred;
+    }
+}
+@keyframes example2 {
+    0% {background-color: aqua;}
+    25% {background-color: aquamarine;}
+    50% { background-color:royalblue ; }
+    75% {background-color: rgb(23, 23, 88);}
+    100% {background-color: rgb(234, 182, 79); }
+}
+@keyframes example3 {
+    0% {background-color: aqua; left: 0px;top: 0px;}
+    25% {background-color: aquamarine;left: 200px;top: 0px;}
+    50% { background-color:royalblue ; left: 0px;top:0px;}
+    75% {background-color: rgb(23, 23, 88);left:1200px;top: 0px;}
+    100% {background-color: aliceblue;left: 0px;top: 0px;
+    }
+}
+p {
+    position: relative;
+}
+ 

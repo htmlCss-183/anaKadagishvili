@@ -1,0 +1,36 @@
+#div0 {
+    width: 100px;
+    height: 100px;
+    background: rgba(73, 52, 1, 0.715);
+    transition: width 3s, height 3s;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background: rgba(180, 137, 10, 0.534);
+    transition: width 2s;
+    transition-delay: 2s;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(226, 224, 187);
+}
+div:hover {
+    width: 300px;
+}
+#div1 {
+    transition-timing-function: linear;}
+ #div2 {
+        transition-timing-function: ease;}
+ #div3 {
+        transition-timing-function: ease-in;}
+ #div4 {
+        transition-timing-function: ease-out;}
+ #div5 {
+        transition-timing-function: ease-in-out;}
+
+body{
+    background-image: url("https://images.pexels.com/photos/4946772/pexels-photo-4946772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: 900px;
+    background-color: aqua;
+}
